@@ -1,7 +1,9 @@
 //Create list of ints from 1 to 5, Haskell equivalent [1..5]
 function arrFunc(){
     let arr = [];
-    for (let i = 1; i<=5; i++) {
+    var a = prompt("Enter number for a: ")
+    var b = prompt("Enter number for b: ")
+    for (let i = a; i<=b; i++) {
         arr.push(i);
     }
     return arr;    
